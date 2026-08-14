@@ -1,0 +1,52 @@
+Study Time Analyzer
+
+
+days = [
+        "Monday" ,
+        "Tuesday" ,
+        "Wednesday" ,
+        "Thursday" ,
+        "Friday"
+]
+
+
+hours = [
+2.0,
+1.5,
+3.0,
+0.5,
+2.0
+]
+
+
+total = sum(hours)
+average = total / len(hours)
+
+
+best_hours = max(hours)
+worst_hours = min(hours)
+
+
+best_day = days[hours.index(best_hours)]
+worst_day = days[hours.index(worst_hours)]
+
+
+print("=== Study Time Analyzer ===")
+print()
+
+
+print(f"Total Study Time: {total:.1f} hours")
+print(f"Average Time: {average:.2f} hours/day")
+print()
+
+
+print(f"Best Day: {best_day} ({best_hours:.1f} h)")
+print(f"Worst Day: {worst_day} ({worst_hours:.1f} h)")
+print()
+ 
+if total >= 20:
+     print("Status: Excellent")
+elif total >= 10:
+     print("Status: Good")
+else:
+      print("Status: Need More Study")
