@@ -44,9 +44,9 @@ print(f"Best Day: {best_day} ({best_hours:.1f} h)")
 print(f"Worst Day: {worst_day} ({worst_hours:.1f} h)")
 print()
  
-if total >= 20:
-     print("Status: Excellent")
-elif total >= 10:
-     print("Status: Good")
+if total >= 56:
+     print("Status: Goated Blud💀")
+elif total >= 30:
+     print("Status: Legendary🏆")
 else:
-      print("Status: Need More Study")
+      print("Status: Good👍")
