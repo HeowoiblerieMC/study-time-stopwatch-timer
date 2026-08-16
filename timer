@@ -2,20 +2,24 @@ Study Time Analyzer
 
 
 days = [
+        "Sunday" ,
         "Monday" ,
         "Tuesday" ,
         "Wednesday" ,
         "Thursday" ,
-        "Friday"
+        "Friday" ,
+        "Saturday"
 ]
 
 
 hours = [
 2.0,
+2.5,
 1.5,
 3.0,
 0.5,
-2.0
+2.0,
+1.0,
 ]
 
 
