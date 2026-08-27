@@ -23,5 +23,3 @@ Status: Need More Study
 
 ## Built With
 - Python
-
-  
