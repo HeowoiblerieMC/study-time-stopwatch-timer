@@ -19,7 +19,9 @@ Average Time: 1.80 hours/da
 
 Best Day: Wednesday (3.0 h)
 Worst Day: Thursday (0.5 h)
-Status: Need More Study 📚
+Status: Need More Study
 
 ## Built With
 - Python
+
+  
