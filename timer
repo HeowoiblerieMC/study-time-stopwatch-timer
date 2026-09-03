@@ -51,6 +51,6 @@ print()
 if total >= 56:
      print("Status: Goated Blud")
 elif total >= 30:
-     print("Status: Insane mhm...")
+     print("Status: Insane")
 else:
       print("Status: Good")
